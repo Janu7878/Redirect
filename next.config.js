@@ -23,8 +23,8 @@ const nextConfig = {
 				permanent: true,
 			},
 			{
-				source: "/instagram",
-				destination: "https://www.instagram.com/barisbored",
+				source: "/posts/:slug",
+				destination: "https://fancy4work.com/:slug",
 				permanent: true,
 			},
 			{
