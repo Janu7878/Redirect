@@ -15,7 +15,7 @@ const nextConfig = {
 	images: {
 		domains: ["avatars.githubusercontent.com", "api.338.rocks"],
 	},
-	basePath: '/',
+	basePath: '',
 	async redirects() {
 		return [
 			{
