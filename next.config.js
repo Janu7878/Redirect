@@ -2,8 +2,8 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/authors/maria-thaituan',
-        destination: '/categories/archeology',
+        source: '/sample-page',
+        destination: '/',
         permanent: true,
       },
     ]
