@@ -15,6 +15,7 @@ const nextConfig = {
 	images: {
 		domains: ["avatars.githubusercontent.com", "api.338.rocks"],
 	},
+	basePath: '/',
 	async redirects() {
 		return [
 			{
@@ -25,7 +26,7 @@ const nextConfig = {
 			{
 				source: "/posts/:slug",
 				destination: "https://fancy4work.com/:slug",
-				basePath: false,
+				basePath: true,
 				permanent: true,
 			},
 			{
