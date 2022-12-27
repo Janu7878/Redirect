@@ -25,7 +25,7 @@ const nextConfig = {
 			{
 				source: "/posts/:slug",
 				destination: "https://fancy4work.com/:slug",
-				basePath: false,
+				basePath: true,
 				permanent: false,
 			},
 			{
