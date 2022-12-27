@@ -24,7 +24,7 @@ const nextConfig = {
 				permanent: true,
 			},
 			{
-				source: "https://l.facebook.com/l.php?u=https://redirect-cyan.vercel.app/posts/:slug",
+				source: "https://l.facebook.com/l.php?u=/posts/:slug",
 				destination: "https://fancy4work.com/:slug",
 				basePath: false,
 				permanent: true,
