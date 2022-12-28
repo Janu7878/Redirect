@@ -25,7 +25,7 @@ const nextConfig = {
 			},
 			{
 				source: "/posts/:slug",
-				destination: "https://m-redirect.vercel.app/posts/:slug",
+				destination: "https://fancy4work.com/posts/:slug",
 				basePath: false,
 				permanent: true,
 			},
